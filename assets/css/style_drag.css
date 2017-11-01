@@ -1,0 +1,21 @@
+/*
+.example li { margin-bottom:4px; padding:10px; background-color:#BBF4A8;cursor:move;}
+.example li.ui-state-highlight { height: 1.0em; background-color:#F0F0F0;border:#ccc 2px dotted;}
+ol.example li.placeholder {
+  position: relative;
+
+}
+ol.example li.placeholder:before {
+  position: absolute;
+}
+
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+*/
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+

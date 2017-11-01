@@ -1,0 +1,18 @@
+Prerequisites
+* Install Xampp or other similar tools.
+* Make sure that web server and database server run properly.
+
+Instalation Procedures:
+1. Extract nomnomdb folder from nomnomdb14.zip file to document root.
+2. Access the host folder from browser by click http://localhost/nomnomdb
+3. Follow the step by step installation process.
+
+User Guide:
+1. Setup Connection to Database Server: access Update MySQL Server Info page.
+2. Register a username to login to nomnomdb adminstrator.
+3. Login to NomnomDB for the first time and you will see nomnomdb database already setup. Do not change any data of this database.
+4. In Home page, click Set Database to change the database to be managed
+5. Set the menu order and save the menu
+6. Go to the application again and boo, your database will change
+
+For assistance, please email cs@edutamamedia.com

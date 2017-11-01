@@ -1,0 +1,29 @@
+/* simbol ini tidak ngefek di chrome */
+
+/*table pada ptabel */
+table.main{margin:5px}
+td{vertical-align:top; border:1px solid white;padding:5px; word-break:break-word;} 
+table.main tr:nth-child(odd){background-color: #fbfbfb;}
+table.main tr:nth-child(even){background-color: #e8ecee;}
+table.main tr:first-child td{background-color: #000; color:#fff;font-weight:bold;}
+table.main tr:nth-child(n+2):hover td{background-color: #fffbae;}
+table.main td{} /*white-space:nowrap;*/
+.sedang_diedit{background:#DDF76D;}
+.pmain{padding:10px;} /*tampilan utama pada ptable home*/
+
+/* urus menu bagian atas ptabel */
+#menutambah{width:100%; background:#eee; padding:10px; margin:10px 0;}
+fieldset{border:2px solid #eee; padding:5px; border-radius:10px; margin:auto; width:100%; background:white;}
+legend{padding:5px;background:grey;color:white;border-radius:10px; text-align:left;}
+/* akhir ptabel  */
+
+/* umum */
+.clearfix:after{content:" ";clear:both;display:block;}
+.container-search button {float: left; margin-right: 3px;}
+.container-search input, .container-search select{width:20%; float:right;}
+.container-search {padding: 10px;}
+
+.mb4{margin:5px; padding:8px; border-radius:5px 5px 0 0;}
+.pb4{padding-bottom:4px;}
+.no-space{margin: 0;padding: 0;}
+.smallnote{color:#ccc;}
